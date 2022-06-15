@@ -1,0 +1,179 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+*, *::before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+:focus, :active {
+  outline: none; }
+
+a:focus, a:active {
+  outline: none; }
+
+nav, footer, header, aside {
+  display: block; }
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+input, button, textarea {
+  font-family: inherit; }
+
+input::-ms-clear {
+  display: none; }
+
+button {
+  cursor: pointer; }
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+a, a:visited {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none; }
+
+ul li {
+  list-style: none; }
+
+img {
+  vertical-align: top; }
+
+h1, h1, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("/img/kananaskis-alberta-kanada-nebo-oblaka-gory-les-derevya-el-priroda-zakat-ozero-vecher-kamni-otrazhenie.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.avtorization {
+  border: 1px solid rgba(0, 0, 0, 0);
+  font-size: 10px;
+  font-weight: 700;
+  text-align: center;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  -ms-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+  left: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  background: -webkit-gradient(linear, left bottom, left top, from(#00000042), to(#00000042));
+  background: -webkit-linear-gradient(bottom, #00000042, #00000042);
+  background: -o-linear-gradient(bottom, #00000042, #00000042);
+  background: linear-gradient(to top, #00000042, #00000042); }
+  .avtorization .text_avtorization {
+    color: white;
+    padding: 15px;
+    font-size: medium;
+    opacity: 0.8; }
+  .avtorization .welcome_text {
+    color: white; }
+  .avtorization .input_login {
+    background-color: #00000042;
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: white;
+    margin: 10px;
+    opacity: 0.5; }
+  .avtorization .input_login:hover {
+    opacity: 1; }
+  .avtorization .input_password {
+    background-color: #00000042;
+    border-bottom: 1px solid white;
+    text-align: left;
+    color: white;
+    margin: 10px;
+    opacity: 0.5; }
+  .avtorization .input_password:hover {
+    opacity: 1; }
+  .avtorization .welcome_button {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    background-color: #00000042;
+    text-align: center;
+    margin: 15px;
+    opacity: 0.5; }
+  .avtorization .welcome_button:hover {
+    opacity: 1; }
+
+/*
+.avtorization{
+    border: 1px solid purple;
+
+    background:white;
+
+    font-size: 10px;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    max-width: 200px;
+
+    background: linear-gradient(to top, #fefcea, #f1da36);
+
+
+    .text_avtorization{
+        color: purple;
+        margin: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text_login{
+        text-align: left;
+        color: purple;
+        margin: 5px 0 5px 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .text_password{
+        text-align: left;
+        color: purple;
+        margin: 5px 0 5px 17px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .welcome_text{
+        color: purple;
+    }
+
+    .input_login{
+        border-bottom: 1px solid purple;
+        opacity: 0.4;
+        text-align: left;
+    }
+    .input_password{
+        border-bottom: 1px solid purple;
+        opacity: 0.4;
+        text-align: left;
+    }
+    .welcome_button{
+        border-bottom: 1px solid purple;
+        border-top: 1px solid purple;
+        text-align:  center;
+        margin: 15px;
+    }
+}*/

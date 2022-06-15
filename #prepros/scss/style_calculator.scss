@@ -1,0 +1,202 @@
+@import 'nullstyle.scss';
+
+.calculator{
+    border: 1px solid black;
+    border-radius: 4px;
+    background: orange;
+    width: 250px;
+    height: 350px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.top_side{
+    .output_screen{
+        border: 1px solid black;
+        border-radius: 3px;
+        height: 30px;
+        width: 206px;
+        background: white;
+        margin: 10px;
+        text-align: right;
+        font-size: 30px;
+    }
+}
+
+.under_side{
+    .btn{
+        border: 1px solid black;
+        color: white;
+        background: rgb(61, 59, 59);
+        font-size: 25px;
+        margin: 10px 7px 10px 7px;
+        width: 40px;
+        border-radius: 4px;
+    }
+    .btn:hover{
+        background: rgb(225, 181, 99);
+        box-shadow: 1px 1px 1px black;
+        color: black;
+    }
+
+    .btn_equal{
+        border: 1px solid black;
+        color: white;
+        background: rgb(61, 59, 59);
+        font-size: 25px;
+        margin: 0px 70px 10px 7px;
+        width: 98px;
+        position: relative;
+        left: 115px;
+        bottom: 40px;
+        border-radius: 4px;
+    }
+    .btn_equal:hover{
+        background: rgb(225, 181, 99);
+        box-shadow: 1px 1px 1px black;
+        color: black;
+    }
+}
+
+
+    // .line_1{
+
+    //     .operators, .operator_clear{
+    //         border: 1px solid black;
+    //         color: white;
+    //         background: rgb(61, 59, 59);
+    //         font-size: 25px;
+    //         margin: 10px 7px 10px 7px;
+    //         width: 40px;
+    //         border-radius: 4px;
+    //     }
+
+    //     .operators:hover, .operator_clear:hover{
+    //         background: rgb(225, 181, 99);
+    //         box-shadow: 1px 1px 1px black;
+    //         color: black;
+    //     }
+    // }
+
+    // .line_2{
+
+    //     .operators, .numbers{
+    //         border: 1px solid black;
+    //         color: white;
+    //         background: rgb(61, 59, 59);
+    //         font-size: 25px;
+    //         margin: 10px 7px 10px 7px;
+    //         width: 40px;
+    //         border-radius: 4px;
+    //     }
+
+    //     .operators:hover, .numbers:hover{
+    //         background: rgb(225, 181, 99);
+    //         box-shadow: 1px 1px 1px black;
+    //         color: black;
+    //     }
+    // }
+
+    // .line_3{
+
+    //     .operators, .numbers{
+    //         border: 1px solid black;
+    //         color: white;
+    //         background: rgb(61, 59, 59);
+    //         font-size: 25px;
+    //         margin: 10px 7px 10px 7px;
+    //         width: 40px;
+    //         border-radius: 4px;
+    //     }
+
+    //     .operators:hover, .numbers:hover{
+    //         background: rgb(225, 181, 99);
+    //         box-shadow: 1px 1px 1px black;
+    //         color: black;
+    //     }
+    // }
+
+    // .line_4{
+
+    //     .operators, .numbers{
+    //         border: 1px solid black;
+    //         color: white;
+    //         background: rgb(61, 59, 59);
+    //         font-size: 25px;
+    //         margin: 10px 7px 10px 7px;
+    //         width: 40px;
+    //         border-radius: 4px;
+    //     }
+
+    //     .operators:hover, .numbers:hover{
+    //         background: rgb(225, 181, 99);
+    //         box-shadow: 1px 1px 1px black;
+    //         color: black;
+    //     }
+    // }
+
+    // .line_5{
+    //     .operators, .numbers{
+    //         border: 1px solid black;
+    //         color: white;
+    //         background: rgb(61, 59, 59);
+    //         font-size: 25px;
+    //         margin: 10px 7px 10px 7px;
+    //         width: 40px;
+    //         border-radius: 4px;
+    //     }
+
+    //     .operators:hover, .numbers:hover{
+    //         background: rgb(225, 181, 99);
+    //         box-shadow: 1px 1px 1px black;
+    //         color: black;
+    //     }
+    // }
+
+    // .operators_equals{
+    //     border: 1px solid black;
+    //     color: white;
+    //     background: rgb(61, 59, 59);
+    //     font-size: 25px;
+    //     margin: 10px 7px 10px 180px;
+    //     width: 40px;
+    //     border-radius: 4px;
+    //     position: relative;
+    //     bottom: 102px;
+    //     height: 82px;
+    // }
+    // .operators_equals:hover{
+    //     background: rgb(225, 181, 99);
+    //     box-shadow: 1px 1px 1px black;
+    //     color: black;
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+// .line_3{
+
+//     .operators, .numbers{
+//         border: 1px solid black;
+//         color: white;
+//         background: rgb(61, 59, 59);
+//         font-size: 25px;
+//         margin: 10px 7px 10px 7px;
+//         width: 40px;
+//         border-radius: 4px;
+//     }
+
+//     .operators:hover, .numbers:hover{
+//         background: rgb(225, 181, 99);
+//         box-shadow: 1px 1px 1px black;
+//         color: black;
+//     }
+// }
